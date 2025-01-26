@@ -15,8 +15,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'ae7a9f9a91eb4203830f0707988bcb24',
 
-  PROVINCE: '河南省',
-  CITY: '郑州市',
+  PROVINCE: '江西省',
+  CITY: '樟树市',
 
   USERS: [
     {
@@ -31,11 +31,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '徐大乖', year: '2002', date: '07-20',
+          type: '*生日', name: '徐大乖', year: '2002', date: '06-11',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '王小坏', year: '2000', date: '01-07',
+          type: '生日', name: '徐大乖', year: '2002', date: '07-20',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '05-03',
